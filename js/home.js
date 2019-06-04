@@ -1,3 +1,4 @@
-function  myfunction() {
-        windows.location.href = "login.html";
-    };
+
+function myFunction() {
+  location.replace("login.html")
+}
