@@ -1,0 +1,39 @@
+
+.w3-button {
+    border-radius: 256px;
+    margin-top: 35px;
+    padding-left: 10px;
+    margin-left: 339px;
+}
+#submit {
+    background-color: #2bc3bc;
+    margin-left: -381px;
+    border-radius: 250px;
+    width: 130px;
+    margin-top: 383px;
+    color: white;
+}
+#login {
+    background-color: black;
+    margin-left:374px;
+    border-radius: 250px;
+    width: 70px;
+    color: #2bc3bc;
+    margin-top: -57px;
+}
+#id{
+	margin-right: 100px;
+	text-align: center;
+
+}
+body {
+    background-color:#8080803d;
+    margin-top: -11px;
+}
+.btn {
+    display: inline-block;
+    padding: 9px 12px;
+    border: 1px solid #479bc5;
+    border-radius: 128px;
+    margin-right:203px;
+   

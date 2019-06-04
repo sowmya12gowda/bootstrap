@@ -1,0 +1,27 @@
+
+#color{
+    font-size: 10px;
+    color:#2bc3bc;
+    margin-right:-113px;
+    text-align: center;
+}
+body {
+    background-color:#8080803d;
+    margin-top: 100px;
+}
+#submit {
+    background-color: #2bc3bc;
+    margin-left: 41px;
+    border-radius: 250px;
+    width: 100px;
+    color: white;
+}
+
+#signup {
+    background-color: black;
+    margin-left:218px;
+    border-radius: 250px;
+    width: 70px;
+    color: #2bc3bc;
+    margin-top: -57px;
+}
