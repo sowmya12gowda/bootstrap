@@ -1,0 +1,60 @@
+body {
+
+    background-color:#8080803d;
+    margin-top: 200px;
+}
+.modal {
+    margin-top:205px;
+    height:500px;
+    width:500px;
+    left:700px;
+}
+.modal-body {padding: 2px 16px;
+}
+.modal-header{
+background-color: #8080803d;}
+
+#myBtn {
+    background-color: #2bc3bc;
+    margin-left:-733px;
+    border-radius: 315px;
+    width: 105px;
+    height: 47px;
+    margin-top:281px;
+    color: white;
+}
+#signup {
+    background-color: black;
+    margin-left: -102px;
+    border-radius:250px;
+    width: 104px;
+    height: 49px;
+    color: white;
+    margin-top: 113px;
+}
+#color{
+    font-size: 10px;
+    color:#2bc3bc;
+    margin-left:85px;
+    
+}
+
+#submit {
+    background-color: #2bc3bc;
+    margin-left:26px;
+    border-radius: 250px;
+    width: 132px;
+    color: white;
+}
+#text{
+    margin-left:-71px;
+}
+
+#Signup {
+    background-color: black;
+    margin-left:148px;
+    border-radius:250px;
+    width: 70px;
+    color: #2bc3bc;
+    margin-top: -57px;
+}

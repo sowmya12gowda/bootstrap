@@ -1,0 +1,36 @@
+
+#submit {
+    background-color: #2bc3bc;
+    margin-left:-405px;
+    border-radius:250px;
+    width: 130px;
+    margin-top: 383px;
+    color: white;
+}
+#login {
+    background-color: black;
+    margin-left:328px;
+    border-radius:250px;
+    width: 70px;
+    color: #2bc3bc;
+    margin-top:-65px;
+}
+#id{
+	margin-right:100px;
+	text-align: center;
+
+}
+body {
+    background-color:#8080803d;
+    margin-top:-11px;
+}
+.btn {
+    display:inline-block;
+    padding:9px 12px;
+    border:1px solid #479bc5;
+    border-radius:128px;
+    margin-left:236px;
+}
+#text{
+    margin-right:100px;
+}

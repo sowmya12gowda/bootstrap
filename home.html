@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/home.css">
+  <link rel="stylesheet" type="text/css" href="./js/home.js">
+</head>
+<body>
+      <div class="container">
+           <div class="row">
+           <div class="col-sm-4 col-md-4  col-lg-4"></div>
+            <div class="col-sm-4 col-md-4  col-lg-4">
+              <h1><i class="fa fa-github"style="font-size:40px;color:red;"> </i><strong>ghub</h1></strong>
+              <h1 style="padding:20px; margin-top: 10px;">Welcome</h1>      
+            <p>Today many people rely on computers to<br>
+                               do homework, work and  create or store<br>
+                               useful  information. Therefore ,it  is<br> 
+                               important  for the information on  the<br>
+                               computer to be stored.</p></div>
+              <div class="col-sm-4 col-md-4  colo-lg-4"></div>
+              <button id="myBtn">Login</button>
+        <button  id="signup" type="button" class="btn btn-sign"> <a href="./form.html">Signup</a></button>
+      </div>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+    <h1 class="text-center"><i class="fa fa-github" style="font-size:40px;color:red;"> </i><strong>ghub</h1></strong>
+      <form class="text-center">
+     <label>Email</label><br>
+     <input type="email" name="email"><br>
+      <label>Password</label><br>
+      <input type="password" name="pwd"><br>
+      <p id="color">Forget Password?</p><br>
+      <button  id="submit" type="button" class="btn btn-login"><a href="./signup.html">Submit</button><br><br>
+      <h6 id="text">Dont't have an Account?</h6><button  id="Signup" type="button" class="btn btn-sign"><a href="./signup.html">Signup</button></form>
+ </div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
