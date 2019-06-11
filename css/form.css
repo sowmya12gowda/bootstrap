@@ -1,8 +1,9 @@
 
+
 #submit {
     background-color: #2bc3bc;
-    margin-left:-405px;
-    border-radius:250px;
+    margin-left: -381px;
+    border-radius: 250px;
     width: 130px;
     margin-top: 383px;
     color: white;
@@ -17,9 +18,13 @@
 }
 #id{
 	margin-right:100px;
-	text-align: center;
-
+    margin-left:374px;
+    border-radius: 250px;
+    width: 70px;
+    color: #2bc3bc;
+    margin-top: -57px;
 }
+
 body {
     background-color:#8080803d;
     margin-top:-11px;
@@ -34,3 +39,5 @@ body {
 #text{
     margin-right:100px;
 }
+    margin-top: -11px;
+

@@ -57,4 +57,23 @@ background-color: #8080803d;}
     width: 70px;
     color: #2bc3bc;
     margin-top: -57px;
+body {
+    margin: 200px;
+    background-color:#8080803d;
+}
+
+#login {
+    background-color: #2bc3bc;
+    margin-left: -541px;
+    border-radius: 250px;
+    width: 100px;
+    margin-top: 213px;
+    color: white;
+}
+#signup {
+    background-color:black;
+    margin-left: 345px;
+    border-radius: 250px;
+    width: 100px;
+    color: white;
 }
